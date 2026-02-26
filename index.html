@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apostilas CTBMF para Residência e Concursos | Dr. Marcos Guimarães</title>
+    <meta name="description"
+        content="Garanta sua aprovação na Residência de CTBMF, EBSERH e Forças Armadas com o material mais completo. São 4.983 questões comentadas pelo Dr. Marcos Guimarães." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seusite.com.br/" />
+    <meta property="og:title" content="Apostilas CTBMF para Residência e Concursos | Dr. Marcos Guimarães" />
+    <meta property="og:description"
+        content="Garanta sua aprovação na Residência de CTBMF, EBSERH e Forças Armadas com o material mais completo. São 4.983 questões comentadas pelo Dr. Marcos Guimarães." />
+    <meta property="og:image" content="https://seusite.com.br/marcos1-Photoroom.webp" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://seusite.com.br/" />
+    <meta property="twitter:title" content="Apostilas CTBMF para Residência e Concursos | Dr. Marcos Guimarães" />
+    <meta property="twitter:description"
+        content="Garanta sua aprovação na Residência de CTBMF, EBSERH e Forças Armadas com o material mais completo. São 4.983 questões comentadas pelo Dr. Marcos Guimarães." />
+    <meta property="twitter:image" content="https://seusite.com.br/marcos1-Photoroom.webp" />
+
+    <!-- Favicon (Emoji 🦷) -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦷</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a href="#top" class="logo" aria-label="Dr. Marcos Guimarães">
+                <picture>
+                    <source srcset="dr-photoroom.webp" type="image/webp">
+                    <img src="dr-photoroom.png" alt="Logotipo Dr. Marcos Guimarães"
+                        style="height: 80px; max-height: 100%; width: auto; max-width: 320px; object-fit: contain; display: block; transform: scale(1.15); transform-origin: left center;" />
+                </picture>
+            </a>
+            <!-- Desktop nav -->
+            <nav class="nav-menu" id="nav-menu" aria-label="Menu principal">
+                <a href="#apostilas" class="nav-link">Apostilas</a>
+                <a href="#aprovacoes" class="nav-link">Aprovações</a>
+                <a href="#autor" class="nav-link">Sobre o Autor</a>
+            </nav>
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <a href="#apostilas" class="btn btn-header" id="btn-comprar-header">Comprar Material</a>
+                <a href="https://wa.me/5500000000000?text=Olá,%20tenho%20uma%20dúvida%20sobre%20as%20apostilas..."
+                    class="btn-whatsapp-header" title="Chame no WhatsApp" target="_blank" rel="noopener noreferrer">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                        <path
+                            d="M11.98 0C5.366 0 0 5.373 0 12c0 2.117.554 4.102 1.522 5.827L.057 23.886a.5.5 0 0 0 .619.61l6.188-1.485A11.934 11.934 0 0 0 11.98 24C18.627 24 24 18.627 24 12S18.627 0 11.98 0zm0 21.818a9.818 9.818 0 0 1-5.028-1.38l-.36-.214-3.724.895.929-3.617-.235-.371A9.791 9.791 0 0 1 2.182 12c0-5.404 4.394-9.818 9.8-9.818 5.403 0 9.818 4.414 9.818 9.818 0 5.403-4.415 9.818-9.82 9.818z" />
+                    </svg>
+                </a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false"
+                aria-controls="mobile-nav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+    <!-- Mobile nav dropdown (fora do header para não quebrar sticky) -->
+    <nav class="nav-menu-mobile" id="mobile-nav" aria-label="Menu mobile">
+        <a href="#apostilas" class="nav-link">Apostilas</a>
+        <a href="#aprovacoes" class="nav-link">Aprovações</a>
+        <a href="#autor" class="nav-link">Sobre o Autor</a>
+        <a href="#apostilas" class="btn btn-header">Comprar Material</a>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shape"></div>
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <div class="badge-pill">
+                    <span class="badge-dot"></span>
+                    Material mais completo para CTBMF
+                </div>
+                <h1 class="hero-headline">
+                    Aprove na Residência de CTBMF com as
+                    <span class="highlight">Melhores Apostilas de Questões.</span>
+                </h1>
+                <p class="hero-sub">
+                    O caminho mais seguro para a sua aprovação. Estude com o material focado e atualizado do <strong>Dr.
+                        Marcos Guimarães</strong> — Cirurgião Bucomaxilofacial com dezenas de alunos aprovados nas
+                    residências mais concorridas do Brasil.
+                </p>
+
+                <div class="social-proof-strip">
+                    <div class="proof-item">
+                        <span class="proof-number">4.983</span>
+                        <span class="proof-label">Apostilas de Questões</span>
+                    </div>
+                    <div class="proof-divider"></div>
+                    <div class="proof-item">
+                        <span class="proof-number">3</span>
+                        <span class="proof-label">Volumes Completos</span>
+                    </div>
+                    <div class="proof-divider"></div>
+                    <div class="proof-item">
+                        <span class="proof-number">+50</span>
+                        <span class="proof-label">Alunos Aprovados</span>
+                    </div>
+                </div>
+
+                <div class="hero-ctas">
+                    <a href="#apostilas" class="btn btn-primary btn-large" id="btn-hero-cta">
+                        <span>Garantir Minhas Apostilas</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                    <a href="#autor" class="btn btn-ghost" id="btn-hero-saibamais">Conhecer o Método</a>
+                </div>
+
+                <p class="hero-guarantee">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                    Aprovado para Residência | EBSERH | Forças Armadas | Concursos Públicos
+                </p>
+            </div>
+
+            <div class="hero-visual">
+                <div class="books-stack">
+                    <picture style="display: contents;">
+                        <source srcset="marcos3-Photoroom.webp" type="image/webp">
+                        <img src="marcos3-Photoroom.png" alt="Volume 1 - 1.712 Questões Comentadas CTBMF"
+                            class="book-img book-back" loading="eager" />
+                    </picture>
+                    <picture style="display: contents;">
+                        <source srcset="marcos2-Photoroom.webp" type="image/webp">
+                        <img src="marcos2-Photoroom.png" alt="Volume 2 - 1.571 Questões Comentadas CTBMF"
+                            class="book-img book-mid" loading="eager" />
+                    </picture>
+                    <picture style="display: contents;">
+                        <source srcset="marcos1-Photoroom.webp" type="image/webp">
+                        <img src="marcos1-Photoroom.png" alt="Volume 3 - 1.700 Questões Comentadas CTBMF"
+                            class="book-img book-front" loading="eager" />
+                    </picture>
+                </div>
+                <div class="hero-glow"></div>
+            </div>
+        </div>
+
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f0f4ff" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- ===== TRUST BAR ===== -->
+    <section class="trust-bar">
+        <div class="container trust-inner">
+            <div class="trust-item">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                <span>MATERIAL 100% ATUALIZADO</span>
+            </div>
+            <div class="trust-item">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 6v6l4 2" />
+                </svg>
+                <span>ENTREGA EM ATÉ 14 DIAS</span>
+            </div>
+            <div class="trust-item">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>APROVADO EM RESIDÊNCIAS CONCORRIDAS</span>
+            </div>
+            <div class="trust-item">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="1" y="4" width="22" height="16" rx="2" />
+                    <line x1="1" y1="10" x2="23" y2="10" />
+                </svg>
+                <span>PAGAMENTO 100% SEGURO</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== APOSTILAS ===== -->
+    <section class="section products-section" id="apostilas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nossos Materiais</span>
+                <h2 class="section-title">Escolha o seu material de estudo</h2>
+                <p class="section-desc">Cada volume foi estrategicamente desenvolvido para cobrir os temas mais cobrados
+                    nas provas de residência de CTBMF.</p>
+            </div>
+
+            <div class="products-grid">
+
+                <!-- Card Kit CTBMF -->
+                <div class="product-card product-card-featured" id="card-kit">
+                    <div class="featured-label">🔥 Kit Completo CTBMF</div>
+                    <div class="card-img-wrap"
+                        style="align-items: center; justify-content: center; display: flex; gap: -20px; padding: 20px 0;">
+                        <picture style="transform: rotate(-10deg); margin-right: -30px; z-index: 1;">
+                            <source srcset="marcos3-Photoroom.webp" type="image/webp">
+                            <img src="marcos3-Photoroom.png" alt="Apostila Kit CTBMF Volume 1" style="width: 120px;"
+                                loading="lazy" />
+                        </picture>
+                        <picture style="transform: rotate(0deg); z-index: 2;">
+                            <source srcset="marcos2-Photoroom.webp" type="image/webp">
+                            <img src="marcos2-Photoroom.png" alt="Apostila Kit CTBMF Volume 2"
+                                style="width: 140px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border-radius: 8px;"
+                                loading="lazy" />
+                        </picture>
+                        <picture style="transform: rotate(10deg); margin-left: -30px; z-index: 1;">
+                            <source srcset="marcos1-Photoroom.webp" type="image/webp">
+                            <img src="marcos1-Photoroom.png" alt="Apostila Kit CTBMF Volume 3" style="width: 120px;"
+                                loading="lazy" />
+                        </picture>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">📚 Kit de CTBMF (3 Volumes)</h3>
+                        <p class="card-desc">São 3 volumes com questões gabaritadas de CTBMF rigorosamente separadas por
+                            assuntos.</p>
+                        <ul class="card-features">
+                            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg> Questões Gabaritadas e Separadas</li>
+                            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg> 3 Volumes Impressos</li>
+                            <li style="color:var(--gray-500);"><svg width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <line x1="12" y1="8" x2="12" y2="12" />
+                                    <line x1="12" y1="16" x2="12.01" y2="16" />
+                                </svg> *Frete não incluso</li>
+                        </ul>
+                        <div class="card-price-wrap" style="flex-direction: column; align-items: flex-start; gap: 4px;">
+                            <span
+                                style="font-size: 0.8rem; font-weight: 600; color: var(--red-600); text-transform: uppercase; letter-spacing: 0.05em;">🚨
+                                Investimento</span>
+                            <span class="card-price" style="font-size: 1.8rem;">R$ 500,00</span>
+                        </div>
+                        <a href="https://wa.me/5500000000000?text=Olá,%20tenho%20interesse%20no%20Kit%20CTBMF.%20Meu%20CEP%20é..."
+                            target="_blank" rel="noopener noreferrer" class="btn btn-buy" id="btn-comprar-kit">
+                            Calcular Frete no WhatsApp
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                                <path
+                                    d="M11.98 0C5.366 0 0 5.373 0 12c0 2.117.554 4.102 1.522 5.827L.057 23.886a.5.5 0 0 0 .619.61l6.188-1.485A11.934 11.934 0 0 0 11.98 24C18.627 24 24 18.627 24 12S18.627 0 11.98 0zm0 21.818a9.818 9.818 0 0 1-5.028-1.38l-.36-.214-3.724.895.929-3.617-.235-.371A9.791 9.791 0 0 1 2.182 12c0-5.404 4.394-9.818 9.8-9.818 5.403 0 9.818 4.414 9.818 9.818 0 5.403-4.415 9.818-9.82 9.818z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card SUS -->
+                <div class="product-card" id="card-sus">
+                    <div class="card-badge card-badge-blue">Lançamento</div>
+                    <div class="card-img-wrap"
+                        style="align-items: center; justify-content: center; display: flex; padding: 20px 0;">
+                        <picture>
+                            <source srcset="sus-Photoroom.webp" type="image/webp">
+                            <img src="sus-Photoroom.png" alt="Caderno de Questões do SUS"
+                                style="width: 170px; height: auto; transform: rotate(0deg); box-shadow: 0 10px 30px rgba(0,0,0,0.2); border-radius: 8px;"
+                                loading="lazy" />
+                        </picture>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">📕 Caderno de Questões do SUS</h3>
+                        <p class="card-desc">Material com <strong>383 páginas</strong> e mais de <strong>1.022 questões
+                                gabaritadas</strong> de SUS separadas pelos processos seletivos de CTBMF.</p>
+                        <ul class="card-features">
+                            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg> Políticas Públicas e Saúde Bucal</li>
+                            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg> Bioética, Português e Idiomas</li>
+                            <li style="color:var(--green-600);"><svg width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg> *Frete INCLUSO (Registo Módico)</li>
+                        </ul>
+                        <div class="card-price-wrap" style="flex-direction: column; align-items: flex-start; gap: 4px;">
+                            <span
+                                style="font-size: 0.8rem; font-weight: 600; color: var(--red-600); text-transform: uppercase; letter-spacing: 0.05em;">🚨
+                                Investimento</span>
+                            <span class="card-price" style="font-size: 1.8rem;">R$ 250,00</span>
+                        </div>
+                        <a href="#" class="btn btn-buy" id="btn-comprar-sus"
+                            style="background: linear-gradient(135deg, var(--blue-600), var(--blue-800)); box-shadow: 0 4px 18px rgba(37, 99, 168, .3);">
+                            💳 Comprar Agora
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                        <p style="font-size: 0.65rem; color: var(--gray-500); margin-top: 12px; text-align: center;">
+                            PIX, Boleto ou Cartão via Mercado Pago. Previsão de entrega: 15 dias úteis.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Combo VIP -->
+            <div class="kit-banner" id="combo-promocional">
+                <div class="kit-content" style="text-align: left;">
+                    <div class="kit-tag" style="background:#fbbf24; color:#78350f; border-color:#fbbf24;">💎 COMBO VIP
+                        (20% OFF)</div>
+                    <h3 class="kit-title">Os 4 Volumes Juntos</h3>
+                    <p class="kit-desc">Leve o <strong>Kit de CTBMF (3 Volumes) + O Caderno de Questões do SUS</strong>
+                        com um desconto exclusivo. <em>Frete do SUS já incluso, frete do CTBMF a consultar.</em></p>
+                    <div class="kit-price-row">
+                        <span class="kit-price-old">De R$ 750,00</span>
+                        <span class="kit-price">Por R$ 649,90</span>
+                        <span class="kit-economy" style="color: #fbbf24;">Quero economizar R$ 100,10</span>
+                    </div>
+                </div>
+                <div
+                    style="display: flex; gap: -20px; align-items: center; justify-content: center; position: relative;">
+                    <!-- Montagem do Combo UI -->
+                    <picture style="transform: rotate(-10deg); margin-right: -40px; z-index: 1;">
+                        <img src="marcos3-Photoroom.webp" alt="Apostila Vol 1" style="width: 80px;" loading="lazy" />
+                    </picture>
+                    <picture style="transform: rotate(-5deg); margin-right: -40px; z-index: 2;">
+                        <img src="marcos2-Photoroom.webp" alt="Apostila Vol 2" style="width: 90px;" loading="lazy" />
+                    </picture>
+                    <picture style="transform: rotate(5deg); margin-right: -20px; z-index: 3;">
+                        <img src="marcos1-Photoroom.webp" alt="Apostila Vol 3"
+                            style="width: 90px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" loading="lazy" />
+                    </picture>
+                    <picture style="transform: rotate(15deg) scale(1.1); z-index: 4;">
+                        <img src="sus-Photoroom.webp" alt="Apostila SUS"
+                            style="width: 100px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" loading="lazy" />
+                    </picture>
+                </div>
+                <a href="https://wa.me/5500000000000?text=Olá,%20quero%20aproveitar%20o%20Combo%20VIP%20com%20os%204%20Volumes!%20Meu%20CEP%20é..."
+                    target="_blank" rel="noopener noreferrer" class="btn btn-kit" id="btn-comprar-combo">
+                    Garantir Combo VIP
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== APROVAÇÕES ===== -->
+    <section class="section approvals-section" id="aprovacoes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Resultados Reais</span>
+                <h2 class="section-title">Aprovações que falam por si</h2>
+                <p class="section-desc">Dezenas de dentistas já conquistaram sua vaga na residência estudando com nosso
+                    método.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="test-stars">★★★★★</div>
+                    <p class="test-text">"O material do Dr. Marcos foi fundamental para a minha aprovação na residência
+                        de CTBMF. As questões são exatamente o que cai nas provas!"</p>
+                    <div class="test-author">
+                        <div class="test-avatar">AM</div>
+                        <div>
+                            <strong>Dr. André M.</strong>
+                            <span>Aprovado na Residência USP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="test-stars">★★★★★</div>
+                    <p class="test-text">"Estudei os 3 volumes e passei na minha primeira tentativa! O acervo de
+                        questões é imenso e cobre todos os temas da prova."</p>
+                    <div class="test-author">
+                        <div class="test-avatar">CS</div>
+                        <div>
+                            <strong>Dra. Camila S.</strong>
+                            <span>Aprovada no EBSERH</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="test-stars">★★★★★</div>
+                    <p class="test-text">"Melhor investimento que fiz na minha preparação. O método de questões
+                        comentadas acelera muito o aprendizado e fixação do conteúdo."</p>
+                    <div class="test-author">
+                        <div class="test-avatar">RL</div>
+                        <div>
+                            <strong>Dr. Rafael L.</strong>
+                            <span>Aprovado nas Forças Armadas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== AUTOR ===== -->
+    <section class="section author-section" id="autor">
+        <div class="container author-inner">
+            <div class="author-photo-wrap">
+                <div class="author-photo-placeholder" id="author-photo">
+                    <picture>
+                        <source srcset="drmarcola.webp" type="image/webp">
+                        <img src="drmarcola.png" alt="Dr. Marcos Guimarães - Cirurgião Bucomaxilofacial"
+                            loading="lazy" />
+                    </picture>
+                </div>
+                <div class="author-badge-float">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                    </svg>
+                    Cirurgião Bucomaxilofacial
+                </div>
+            </div>
+
+            <div class="author-content">
+                <span class="section-tag">Sobre o Criador do Método</span>
+                <h2 class="author-title">Dr. Marcos Guimarães</h2>
+                <p class="author-subtitle">Cirurgião e Traumatologista Bucomaxilofacial · CRO-AL</p>
+
+                <p class="author-bio">
+                    Formado pela <strong>Universidade Federal de Alagoas (FOUFAL)</strong>, o Dr. Marcos Guimarães
+                    é especialista em Cirurgia e Traumatologia Bucomaxilofacial com trajetória em hospitais e
+                    concursos de referência nacional. Com mais de uma década de experiência clínica e acadêmica,
+                    ele compilou <strong>4.983 questões comentadas</strong> para preparar candidatos às residências
+                    e concursos mais concorridos do Brasil.
+                </p>
+
+                <!-- Timeline de credenciais -->
+                <ul class="credentials-list">
+                    <li class="credential-item">
+                        <span class="cred-year">2006–2011</span>
+                        <div class="cred-content">
+                            <strong>Cirurgião-Dentista</strong>
+                            <span>Faculdade de Odontologia da Universidade Federal de Alagoas (FOUFAL)</span>
+                        </div>
+                    </li>
+                    <li class="credential-item">
+                        <span class="cred-year">2012</span>
+                        <div class="cred-content">
+                            <strong>Residência em CTBMF</strong>
+                            <span>Hospital Municipal Dr. Carminio Caricchio — Hospital do Tatuapé, São Paulo/SP</span>
+                        </div>
+                    </li>
+                    <li class="credential-item">
+                        <span class="cred-year">2015</span>
+                        <div class="cred-content">
+                            <strong>Especialista em CTBMF</strong>
+                            <span>Colégio Brasileiro de Cirurgia e Traumatologia Bucomaxilofacial</span>
+                        </div>
+                    </li>
+                    <li class="credential-item">
+                        <span class="cred-year">2015–</span>
+                        <div class="cred-content">
+                            <strong>Cirurgião Bucomaxilofacial</strong>
+                            <span>Consultório A2 Odontologia, Maceió/AL</span>
+                        </div>
+                    </li>
+                    <li class="credential-item">
+                        <span class="cred-year">2016</span>
+                        <div class="cred-content">
+                            <strong>Aprovado em Concurso Público</strong>
+                            <span>Hospital Regional do Caciri/CE (HRC) e Hospital Universitário Gaffrée e Guinle/RJ
+                                (HUGG)</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="author-stats">
+                    <div class="astat">
+                        <span class="astat-num">+50</span>
+                        <span class="astat-label">Alunos Aprovados</span>
+                    </div>
+                    <div class="astat">
+                        <span class="astat-num">4.983</span>
+                        <span class="astat-label">Questões Comentadas</span>
+                    </div>
+                    <div class="astat">
+                        <span class="astat-num">15+</span>
+                        <span class="astat-label">Anos de Experiência</span>
+                    </div>
+                </div>
+
+                <a href="https://www.instagram.com/dr.marcosguimaraes" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-insta" id="btn-instagram-autor">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                    </svg>
+                    Seguir no Instagram
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== FINAL CTA ===== -->
+    <section class="final-cta-section">
+        <div class="container final-cta-inner">
+            <h2 class="final-cta-title">Pronto para garantir sua aprovação?</h2>
+            <p class="final-cta-sub">Mais de 4.983 questões comentadas esperando por você. Comece a estudar hoje.</p>
+            <a href="#apostilas" class="btn btn-primary btn-large btn-white" id="btn-final-cta">Escolher Meu Volume</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <picture>
+                        <source srcset="dr-photoroom.webp" type="image/webp">
+                        <img src="dr-photoroom.png" alt="Logotipo Dr. Marcos Guimarães"
+                            style="height: 90px; width: auto; max-width: 340px; display: block; transform: scale(1.15); transform-origin: center center; filter: brightness(0) invert(1);" />
+                    </picture>
+                </div>
+                <p class="footer-about">Material especializado para provas de residência em Cirurgia e Traumatologia
+                    Bucomaxilofacial.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Links Rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="#apostilas">Apostilas</a></li>
+                    <li><a href="#aprovacoes">Aprovações</a></li>
+                    <li><a href="#autor">Sobre o Autor</a></li>
+                    <li><a href="#apostilas">Comprar Material</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Contato & Suporte</h4>
+                <ul class="footer-links">
+                    <li>
+                        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer"
+                            id="link-whatsapp-footer">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                                <path
+                                    d="M11.98 0C5.366 0 0 5.373 0 12c0 2.117.554 4.102 1.522 5.827L.057 23.886a.5.5 0 0 0 .619.61l6.188-1.485A11.934 11.934 0 0 0 11.98 24C18.627 24 24 18.627 24 12S18.627 0 11.98 0zm0 21.818a9.818 9.818 0 0 1-5.028-1.38l-.36-.214-3.724.895.929-3.617-.235-.371A9.791 9.791 0 0 1 2.182 12c0-5.404 4.394-9.818 9.8-9.818 5.403 0 9.818 4.414 9.818 9.818 0 5.403-4.415 9.818-9.82 9.818z" />
+                            </svg>
+                            WhatsApp de Suporte
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/dr.marcosguimaraes" target="_blank" rel="noopener noreferrer"
+                            id="link-instagram-footer">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
+                            @dr.marcosguimaraes
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="footer-divider" />
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2025 Dr. Marcos Guimarães — Todos os direitos reservados.</p>
+                <p style="margin-top:4px; font-size:.72rem; color:#3d5a80;">Material protegido por direitos autorais ·
+                    Lei 9.610/98</p>
+                <p style="margin-top: 16px; font-size: .85rem; color: #7ca3d4; font-weight: 500;">
+                    Desenvolvida por <strong style="color: #fff; letter-spacing: 0.05em;">THM Web E Co</strong>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== STICKY MOBILE CTA ===== -->
+    <div class="sticky-cta" id="sticky-cta" role="complementary" aria-label="Ação principal">
+        <a href="#apostilas" class="btn btn-primary sticky-btn" id="btn-sticky-cta">
+            🎯 Garantir Minhas Apostilas
+        </a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
